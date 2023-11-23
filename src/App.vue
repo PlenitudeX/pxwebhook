@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+import Led from './components/Led.vue';
 </script>
 
 <template>
@@ -7,7 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
   </Cabecalho> -->
   <div class="wrapper">
-  
+  <Led />
   </div>
 
 </template>
